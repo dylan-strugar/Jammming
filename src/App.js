@@ -66,7 +66,7 @@ function App() {
     const params = new URLSearchParams();
     params.append("client_id", CLIENT_ID);
     params.append("response_type", "code");
-    params.append("redirect_uri", "https://stellular-froyo-9920b4.netlify.app/callback");
+    params.append("redirect_uri", "https://stellular-froyo-9920b4.netlify.app/");
     params.append("scope", "user-read-private user-read-email playlist-modify-private");
     params.append("code_challenge_method", "S256");
     params.append("code_challenge", challenge);
