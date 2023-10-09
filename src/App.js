@@ -95,7 +95,7 @@ function App() {
         params.append("client_id", CLIENT_ID);
         params.append("grant_type", "authorization_code");
         params.append("code", code);
-        params.append("redirect_uri", "http://localhost:3000/callback");
+        params.append("redirect_uri", "https://stellular-froyo-9920b4.netlify.app/");
         params.append("code_verifier", verifier);
         params.append("scope", 'playlist-modify-private');
 
